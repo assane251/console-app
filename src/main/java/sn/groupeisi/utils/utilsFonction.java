@@ -11,11 +11,6 @@ public class utilsFonction {
 
         Set<ConstraintViolation<String>> violations = validator.validate(input.getInput());
 
-        if (violations.isEmpty()) {
-            return true;
-        } else {
-            System.out.println("Erreur : " + violations.stream().findFirst().get().getMessage());
-            return false;
-        }
+        return violations.isEmpty();
     }
 }

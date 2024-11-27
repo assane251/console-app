@@ -10,7 +10,6 @@ import sn.groupeisi.service.IConsoleApp;
 
 import javax.validation.Valid;
 import java.sql.Date;
-import java.util.Optional;
 
 public class IConsoleAppImp implements IConsoleApp {
 
